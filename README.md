@@ -6,9 +6,6 @@
   <img alt="Molisha Jain banner" src="assets/header-light.png" width="100%">
 </picture>
 
-<!-- ============ PROFILE PHOTO ============ -->
-<img src="assets/profile.jpg" width="150" height="150" style="border-radius: 50%; border: 4px solid #EF93C4; object-fit: cover; object-position: center;" alt="Molisha Jain"/>
-
 # Hey there, I'm Molisha 👋<img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/wave.gif" width="35"/>
 
 <!-- ============ TYPING SVG ============ -->
@@ -49,7 +46,7 @@
 </td>
 <td width="35%" valign="top" align="center">
 
-<img src="assets/profile.jpg" width="100%" style="border-radius: 12px; border: 2px solid #EF93C4; box-shadow: 0 4px 10px rgba(239, 147, 196, 0.3);" alt="Molisha Jain Profile Portrait">
+<img src="assets/gpf.jpeg" width="100%" style="border-radius: 12px; border: 2px solid #EF93C4; box-shadow: 0 4px 10px rgba(239, 147, 196, 0.3);" alt="Molisha Jain Profile Portrait">
 
 </td>
 </tr>
@@ -210,16 +207,6 @@ Here is a summary of my key projects, their implementation details, and correspo
 <br>
 
 <div align="center">
-  <p><b>✨ Interactive Repository Cards ✨</b></p>
-  
-  [![Customer Churn Prediction](https://github-readme-stats.vercel.app/api/pin/?username=molisha07&repo=customer-churn-prediction&theme=default&title_color=EF93C4&icon_color=FF69B4&border_color=F8BBD0)](https://github.com/molisha07/customer-churn-prediction)
-  [![Intelligent AI DevSecOps Code Scanner](https://github-readme-stats.vercel.app/api/pin/?username=molisha07&repo=Intelligent-AI-DevSecOps-Code-Scanner&theme=default&title_color=EF93C4&icon_color=FF69B4&border_color=F8BBD0)](https://github.com/molisha07/Intelligent-AI-DevSecOps-Code-Scanner)
-  
-  [![Career Catalyst](https://github-readme-stats.vercel.app/api/pin/?username=molisha07&repo=Career_catalyst&theme=default&title_color=EF93C4&icon_color=FF69B4&border_color=F8BBD0)](https://github.com/molisha07/Career_catalyst)
-  [![Eventia](https://github-readme-stats.vercel.app/api/pin/?username=molisha07&repo=Eventia&theme=default&title_color=EF93C4&icon_color=FF69B4&border_color=F8BBD0)](https://github.com/molisha07/Eventia)
-</div>
-
-<div align="center">
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" height="2">
 </div>
 
@@ -248,7 +235,6 @@ Here is a summary of my key projects, their implementation details, and correspo
 [![GitHub](https://img.shields.io/badge/GitHub-FF69B4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/molisha07)
 [![X](https://img.shields.io/badge/X-F8BBD0?style=for-the-badge&logo=x&logoColor=white)](https://share.google/agFBHBpHwAsjPz0hW)
 [![Instagram](https://img.shields.io/badge/Instagram-EF93C4?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/m_jain_13?igsh=amVsb3NtemVtYTRw)
-[![YouTube](https://img.shields.io/badge/YouTube-F8BBD0?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@your-youtube-handle)
 [![Email](https://img.shields.io/badge/Email-EF93C4?style=for-the-badge&logo=gmail&logoColor=white)](mailto:molishajain07@gmail.com)
 [![Phone](https://img.shields.io/badge/+91_9321414497-FF69B4?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:+919321414497)
 
