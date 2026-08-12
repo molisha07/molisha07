@@ -213,7 +213,7 @@ Here is a summary of my key projects, their implementation details, and correspo
 ## 🐍 Contribution Snake
 
 <div align="center">
-  <img src="assets/snake.svg" alt="GitHub contribution snake animation" width="100%">
+  <img src="assets/github-snake-green.svg" alt="GitHub contribution snake animation" width="100%">
 </div>
 
 <div align="center">
