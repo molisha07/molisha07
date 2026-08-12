@@ -7,9 +7,9 @@
       --color-cell-2: #F498B8;
       --color-cell-3: #EE6897;
       --color-cell-4: #E53E77;
-      --snake-color-1: #FF8DA1;
-      --snake-color-2: #E53E77;
-      --snake-color-3: #B81D50;
+      --snake-color-body: #26a641;
+      --snake-color-head: #39d353;
+      --snake-color-eyes: #0e4429;
     }
     @media (prefers-color-scheme: dark) {
       :root {
@@ -30,18 +30,6 @@
     .lvl-3 { fill: var(--color-cell-3); }
     .lvl-4 { fill: var(--color-cell-4); }
     
-    .cell-pulse {
-      animation: cell-eat-anim 12s infinite linear;
-    }
-    
-    @keyframes cell-eat-anim {
-      0% { transform: scale(1); }
-      /* Pulse when snake passes */
-      0.0% { transform: scale(1); }
-      /* Dynamic range calculated based on delay */
-      /* We will use a separate animation per cell if we want exact timing, or a generic keyframe that triggers at their delay */
-    }
-    
     /* Elegant and generic pulse animation */
     @keyframes cell-eat-pulse {
       0% { transform: scale(1); filter: brightness(1); }
@@ -56,32 +44,24 @@
     
     .snake-body {
       fill: none;
-      stroke: url(#snake-gradient);
-      stroke-width: 6px;
-      stroke-linecap: round;
+      stroke: var(--snake-color-body);
+      stroke-width: 10px;
+      stroke-linecap: butt;
       stroke-linejoin: round;
-      stroke-dasharray: 45 1118;
-      stroke-dashoffset: 45;
+      stroke-dasharray: 10 3 10 3 10 3 10 1118;
+      stroke-dashoffset: 6;
       animation: snake-slither 12s infinite linear;
     }
     
     @keyframes snake-slither {
       0% {
-        stroke-dashoffset: 45;
+        stroke-dashoffset: 6;
       }
       100% {
-        stroke-dashoffset: -1118;
+        stroke-dashoffset: -1112;
       }
     }
   </style>
-
-  <defs>
-    <linearGradient id="snake-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="var(--snake-color-1)" />
-      <stop offset="50%" stop-color="var(--snake-color-2)" />
-      <stop offset="100%" stop-color="var(--snake-color-3)" />
-    </linearGradient>
-  </defs>
 
   <!-- Contribution Grid -->
   <g>
@@ -97,14 +77,10 @@
   <!-- Animated Snake Head -->
   <g>
     <animateMotion path="M -6,33 L 202,33 L 202,59 L 137,59 L 137,85 L 332,85 L 332,46 L 397,46 L 397,98 L 553,98 L 553,33 L 631,33 L 631,72 L 735,72" dur="12s" repeatCount="indefinite" rotate="auto" />
-    <!-- Head Base -->
-    <circle cx="0" cy="0" r="4.5" fill="var(--snake-color-3)" />
-    <!-- Eyes -->
-    <circle cx="2.2" cy="-1.8" r="1.1" fill="white" />
-    <circle cx="2.2" cy="1.8" r="1.1" fill="white" />
-    <circle cx="2.6" cy="-1.8" r="0.6" fill="black" />
-    <circle cx="2.6" cy="1.8" r="0.6" fill="black" />
-    <!-- Tongue -->
-    <path d="M 4.5,0 L 7.5,-0.8 M 4.5,0 L 7.5,0.8" stroke="#FF1493" stroke-width="1" stroke-linecap="round" fill="none" />
+    <!-- Head Block (matching cell size 10x10) -->
+    <rect x="-5" y="-5" width="10" height="10" rx="2" fill="var(--snake-color-head)" />
+    <!-- Dark green eyes facing the direction of motion (+X) -->
+    <rect x="2" y="-3.2" width="2.2" height="2.2" rx="0.5" fill="var(--snake-color-eyes)" />
+    <rect x="2" y="1" width="2.2" height="2.2" rx="0.5" fill="var(--snake-color-eyes)" />
   </g>
 </svg>
