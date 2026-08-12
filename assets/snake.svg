@@ -79,8 +79,5 @@
     <animateMotion path="M -6,33 L 202,33 L 202,59 L 137,59 L 137,85 L 332,85 L 332,46 L 397,46 L 397,98 L 553,98 L 553,33 L 631,33 L 631,72 L 735,72" dur="12s" repeatCount="indefinite" rotate="auto" />
     <!-- Head Block (matching cell size 10x10) -->
     <rect x="-5" y="-5" width="10" height="10" rx="2" fill="var(--snake-color-head)" />
-    <!-- Dark green eyes facing the direction of motion (+X) -->
-    <rect x="2" y="-3.2" width="2.2" height="2.2" rx="0.5" fill="var(--snake-color-eyes)" />
-    <rect x="2" y="1" width="2.2" height="2.2" rx="0.5" fill="var(--snake-color-eyes)" />
   </g>
 </svg>
