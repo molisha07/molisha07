@@ -213,7 +213,10 @@ Here is a summary of my key projects, their implementation details, and correspo
 ## 🐍 Contribution Snake
 
 <div align="center">
-  <img src="assets/github-snake-green.svg" alt="GitHub contribution snake animation" width="100%">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/molisha07/molisha07/output/github-contribution-grid-snake-dark.svg">
+    <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/molisha07/molisha07/output/github-contribution-grid-snake.svg">
+  </picture>
 </div>
 
 <div align="center">
