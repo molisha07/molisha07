@@ -1,9 +1,8 @@
 <div align="center">
 
-<!-- ============ HERO BANNER ============ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.png">
-  <img alt="Molisha Jain banner" src="assets/header-light.png" width="100%">
+   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.png">
+   <img alt="Logo for Molisha" src="assets/header-light.png" width="100%">
 </picture>
 
 # ⚡ MOLISHA JAIN // DATA ANALYTICS & ENGINEER 👋<img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/wave.gif" width="35"/>
