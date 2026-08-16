@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.png">
-   <img alt="Logo for Molisha" src="assets/header-light.png" width="100%">
+   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.png?v=2">
+   <img alt="Logo for Molisha" src="assets/header-light.png?v=2" width="100%">
 </picture>
 
 # ⚡ MOLISHA JAIN // DATA ANALYTICS & ENGINEER 👋<img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/wave.gif" width="35"/>
@@ -206,7 +206,7 @@ Here is a summary of my key projects, their implementation details, and correspo
 
 <div align="center">
 
-<img src="assets/social-media-dark.png" width="100%" style="border-radius: 0px; border: 3px solid #000000; box-shadow: 5px 5px 0px #00FF66; margin-bottom: 20px;" alt="Social Media Connections"/>
+<img src="assets/social-media-dark.png?v=2" width="100%" style="border-radius: 0px; border: 3px solid #000000; box-shadow: 5px 5px 0px #00FF66; margin-bottom: 20px;" alt="Social Media Connections"/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/molisha-jain-79007927a/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/molisha07)
