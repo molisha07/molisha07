@@ -189,19 +189,6 @@ Here is a summary of my key projects, their implementation details, and correspo
 <img src="https://capsule-render.vercel.app/api?type=rect&color=00FF66&height=3" width="100%" height="3">
 </div>
 
-## 🐍 Contribution Snake
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/molisha07/molisha07/output/github-contribution-grid-snake-dark.svg">
-    <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/molisha07/molisha07/output/github-contribution-grid-snake.svg">
-  </picture>
-</div>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=00FF66&height=3" width="100%" height="3">
-</div>
-
 ## 💌 Connect With Me
 
 <div align="center">
